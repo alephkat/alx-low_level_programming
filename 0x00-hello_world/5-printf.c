@@ -2,7 +2,6 @@
 
 /**
  * main-prints a text
- *
  * Return:Always 0 (sucess)
  */
  
