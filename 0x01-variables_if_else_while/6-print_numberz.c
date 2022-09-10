@@ -1,19 +1,23 @@
+#include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 /**
- * main - print numbers 0 to 9
- * description - use variable int
- * Return: Always 0 (Success)
+ *main - Prints base 10 numbers
+ *@void: Empty parameter list for main.
+ *Description: Prints numbers 0-9
+ *Return: 0 for success
  */
-
 int main(void)
 {
-int c;
-c = 0;
-while ('0' + c <= '9')
-{
-putchar('0' + c);
-c++;
+	int num = 48;
+
+	while (num <= 57)
+	{
+		putchar(num);
+		num++;
+	}
+		putchar('\n');
+		return (0);
 }
-putchar('\n');
-return (0);
+
