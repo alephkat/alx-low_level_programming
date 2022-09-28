@@ -1,21 +1,17 @@
 #include "main.h"
 
-
-
 /**
+ * _pow_recursion - raise x to power y
  *
- * * _pow_recursion - raise x to power y
+ * @x: number
  *
- * * @x: number
+ * @y: power to raise to
  *
- * * @y: power to raise to
+ * Return: power of number, -1 if power's less than 0
  *
- * * Return: power of number, -1 if power's less than 0
- *
- * */
+ */
 
 int _pow_recursion(int x, int y)
-
 {
 if (y < 0)
 return (-1);
